@@ -12,8 +12,8 @@ lunar是一款无第三方依赖的公历(阳历)和农历(阴历、老黄历)�
     use hulang\calendar\Lunar;
      
     $lunar = Lunar::fromYmd(1986,4,21);
-    echo $lunar->toFullString()."\n";
-    echo $lunar->getSolar()->toFullString()."\n";
+    echo $lunar->toFullString() . PHP_EOL;
+    echo $lunar->getSolar()->toFullString() . PHP_EOL;
 
 输出结果：
 
