@@ -1,0 +1,15 @@
+{
+    "name": "hulang/lunar-php",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6",
+        "ext-bcmath": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hulang\\calendar\\": "src/"
+        }
+    },
+    "description": "lunar is a calendar library for Solar and Chinese Lunar."
+}
